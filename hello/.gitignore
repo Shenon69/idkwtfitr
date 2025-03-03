@@ -1,0 +1,40 @@
+# Dune build artifacts
+/_build/
+*.install
+*.merlin
+*.cmt
+*.cmti
+*.cmi
+*.cmo
+*.cmx
+*.cmxa
+*.a
+*.o
+*.exe
+*.obj
+*.so
+*.dll
+
+# OPAM local switch
+/_opam/
+
+# Dune cache and lock file
+/.dune/
+/dune.lock
+
+# Editor-specific files
+*.swp
+*.swo
+*.vim*
+*.nvim*
+*.dir-locals.el
+.idea/
+.vscode/
+
+# Bytecode and native binaries
+*.byte
+*.native
+
+# Logs and temp files
+*.log
+*.tmp
